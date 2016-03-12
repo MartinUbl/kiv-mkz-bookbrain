@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="cz.paranoid.mobile.bookbrain.activities.EditBorrowedActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="64dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_book_name"
+                android:id="@+id/textView" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameEditText"
+                android:singleLine="true"
+                android:lines="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_book_author"
+                android:id="@+id/textView2" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/authorEditText"
+                android:singleLine="true"
+                android:lines="1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_book_note"
+                android:id="@+id/textView5"
+                android:paddingTop="15dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:ems="10"
+                android:id="@+id/noteEditText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/form_book_return_date"
+                android:id="@+id/textView6"
+                android:paddingTop="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/returnEditText"
+                    android:text="@string/date_not_picked"
+                    android:paddingLeft="12dp" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:minHeight="35dp"
+                    android:minWidth="0dp"
+                    android:textColor="@color/abc_primary_text_material_dark"
+                    android:background="@color/colorPrimary"
+                    android:text="@string/pick_date"
+                    android:onClick="chooseDateClicked" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="52dp"
+        android:text="@string/form_book_add"
+        android:id="@+id/button2"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:textColor="@color/abc_primary_text_material_dark"
+        android:onClick="saveBorrowedButtonClicked" />
+
+</FrameLayout>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Book-brain</string>
+    <string name="action_settings">Nastavení</string>
+    <string name="action_about">O aplikaci</string>
+    <string name="stored_books_title">Vyhlédnuté</string>
+    <string name="borrowed_books_title">Zapůjčené</string>
+    <string name="add_stored_book">Přidat</string>
+    <string name="delete_stored_book">Smazat</string>
+    <string name="edit_stored_book">Upravit</string>
+    <string name="move_stored_to_borrowed_book">Zapůjčeno</string>
+
+    <string name="no_stored_book">Žádná vyhlédnutá kniha</string>
+    <string name="no_borrowed_book">Žádná zapůjčená kniha</string>
+
+    <string name="form_book_name">Název knihy</string>
+    <string name="form_book_author">Autor</string>
+    <string name="form_book_isbn">ISBN</string>
+    <string name="form_book_note">Vlastní poznámka</string>
+    <string name="form_book_return_date">Datum vrácení</string>
+    <string name="form_book_add">Uložit</string>
+
+    <string name="pick_date">Vybrat datum</string>
+    <string name="date_not_picked">Datum nevybrán</string>
+
+    <string name="form_enter_name">Zadejte jméno!</string>
+    <string name="form_enter_author">Zadejte jméno autora!</string>
+
+    <string name="form_or_scan">nebo</string>
+    <string name="form_scan_barcode">Skenovat čárový kód</string>
+
+    <string name="stored_book_added">Kniha \'%1$s\' byla přidána!</string>
+    <string name="stored_book_edited">Kniha \'%1$s\' byla upravena!</string>
+    <string name="stored_book_deleted">Kniha \'%1$s\' byla smazána!</string>
+    <string name="stored_book_borrowed">Kniha \'%1$s\' byla přesunuta do vypůjčených!</string>
+
+    <string name="barscan_download_title">Vyžadovaná aplikace</string>
+    <string name="barscan_download_text">Pro skenování čárových kódů je nutné mít nainstalovanou aplikaci Barcode Scanner. Chcete ji nyní stáhnout?</string>
+    <string name="barscan_yes">Ano</string>
+    <string name="barscan_no">Ne</string>
+
+    <string name="barscan_nothing_scanned">Nebyl naskenován žádný kód</string>
+    <string name="barscan_is_not_book">Skenovaný kód neobsahuje ISBN knihy!</string>
+    <string name="entered_is_not_book">Zadaný vstup není ISBN knihy!</string>
+    <string name="at_first_enter_isbn">Nejdříve vyplňte ISBN!</string>
+    <string name="no_book_found">Nebyla nazelena žádná kniha!</string>
+    <string name="at_first_enter_name">Zadejte část názvu o délce nejméně 4 znaky!</string>
+
+    <string name="loading_api_book_title">Vyhledávání</string>
+    <string name="loading_api_book_text">Získávání dat z Google Books...</string>
+
+    <string name="choose_book_list">Vyberte knihu</string>
+    <string name="find_books_by_isbn">Vyhledat</string>
+    <string name="find_books_by_name">Vyhledat</string>
+    <string name="return_due">Vrátit do: %1$s</string>
+    <string name="moved_to_next_workday">Datum byl posunut na nejbližší pracovní den</string>
+
+    <string name="about_version">Verze 0.1</string>
+    <string name="about_author">Autor: Martin Úbl (ublm@students.zcu.cz)</string>
+    <string name="about_note">Vytvořeno v rámci semestrální práce předmětu KIV/MKZ (Mobilní komunikace a zařízení)</string>
+    <string name="about_credents">Fakulta aplikovaných věd, Západočeská univerzita v Plzni</string>
+
+    <string name="title_activity_settings">Nastavení</string>
+    <string name="setting_notify">Upozornění na blízké vypršení výpůjčky</string>
+    <string name="setting_default_days">Výchozí doba výpůjčky (dny)</string>
+    <string name="setting_invalid_num">Neplatné číslo</string>
+    <string name="setting_invalid_hour">Neplatná hodina</string>
+
+    <string name="book_return_notify_title">Blíží se konec výpůjčky</string>
+    <string name="book_return_notify_body">Brzy je třeba vrátit knihu %1$s</string>
+
+    <string name="setting_default_notify_hour">Hodina upozornění (pracovní den)</string>
+    <string name="setting_default_notify_hour_weekend">Hodina upozornění (víkend)</string>
+</resources>
