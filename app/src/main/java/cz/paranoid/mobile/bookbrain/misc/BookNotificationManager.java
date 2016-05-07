@@ -17,7 +17,7 @@ public class BookNotificationManager
     /** service ID field name */
     public static String SERVICE_ID = "service-id";
     /** notification check interval */
-    public static long SERVICE_NOTIFY_CHECK_INTERVAL = 600000; // in milliseconds (10 minutes)
+    public static long SERVICE_NOTIFY_CHECK_INTERVAL = 3600000; // in milliseconds (1 hour)
 
     /**
      * (Re)starts notification service
